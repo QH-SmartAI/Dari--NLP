@@ -1,4 +1,4 @@
-# Dari--NLP
+# Dari-NLP
 Dari Natural Language Processing Toolkit
 
 ## Features

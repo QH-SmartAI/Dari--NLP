@@ -1,0 +1,11 @@
+# test_tokenizer.py
+import unittest
+from src.dari_nlp import Tokenizer
+
+class TestTokenizer(unittest.TestCase):
+    def setUp(self):
+        self.tokenizer = Tokenizer()
+    
+    def test_basic_tokenization(self):
+        result = self.tokenizer.tokenize("سلام دنیا")
+        self.assertEqual(result, ["سلام", "دنیا"])

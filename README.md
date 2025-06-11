@@ -1,2 +1,2 @@
-# Dari--NLP
-Persian/Dari Natural Language Processing Toolkit
+mkdir data models notebooks src
+mkdir data/raw data/processed

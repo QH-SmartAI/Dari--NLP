@@ -1,0 +1,13 @@
+# dari_nlp.py
+"""
+ماژول اصلی پردازش زبان طبیعی دری
+"""
+
+class Tokenizer:
+    def tokenize(self, text: str) -> list:
+        """توکن‌بندی متن دری"""
+        return text.split()
+
+if __name__ == "__main__":
+    t = Tokenizer()
+    print(t.tokenize("سلام دنیا"))
